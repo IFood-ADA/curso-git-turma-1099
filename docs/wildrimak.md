@@ -2,6 +2,6 @@
 
 ## Wildrimak
 
-- O curso de git foi muito top!
+- O curso de git foi muito top!!!
 
-- E a turma foi muito top também!
+- E a turma foi muito top também!!!
