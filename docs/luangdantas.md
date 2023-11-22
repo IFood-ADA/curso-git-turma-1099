@@ -2,7 +2,7 @@
 
 ## Módulo Versionamento de código
 
-Excelentes aulas ministrada pelo professor Matheus Ferraz.
+Excelentes aulas ministradas pelo professor Matheus Ferraz.
 
 Foi um prazer fazer parte dessa turma!
 
