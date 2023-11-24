@@ -6,17 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="/js/script.js"></script>
-    <title>Titulo do sistema</title>
+    <title>Versionamento de Códigos - IFood</title>
 </head>
 
 <body>
     <h1>Versionamento de Códigos - IFood</h1>
-    <p>Paragrafo1</p>
-    <p>Paragrafo2</p>
-    <p>Paragrafo3</p>
-    <p>Paragrafo4</p>
+    <p>Trabalho do Professor Matheus Ferraz</p>
+    <p>Ao longo das aulas do professor Matheus Ferraz, foram abordados diversos conceitos e comandos relacionados do Git.</p>
+
+    <h1>Configuração do Git:</h1>
+    
+    Utilizar git config -l para listar as configurações do Git.
+    <h2> Comandos Básicos:</h2>
+    
+    git init (Inicialização do Repositório): Utilizado para iniciar um novo repositório Git em um diretório existente.
+    
+    git status: Verificar o status do repositório.
+    git add <file>: Adicionar um arquivo específico ao staged.
+    git add *.txt: Adicionar todos os arquivos com extensão .txt ao staged.
+    git commit -m "Mensagem": Realizar um commit com uma mensagem.
+    git log: Exibir o histórico de commits.
+    <h2>Manipulação de Arquivos:</h2>
+    
+    git rm <file>: Remover um arquivo do repositório.
+    git rm --cached <file>: Remover um arquivo do staged sem excluí-lo localmente.
+    git rm -rf <pasta>: Remover uma pasta do staged e do repositório.
+    <h2>Ignorando Arquivos:</h2>
+    
+    Criar e usar um arquivo .gitignore para listar os arquivos a serem ignorados.
+    <h2>Revertendo Alterações:</h2>
+    
+    git reset: Desfazer o último commit sem perder as alterações locais.
+    git revert: Desfazer um commit criando um novo commit que reverte as alterações.
+    <h2>Branches:</h2>
+    
+    git branch: Listar todas as branches no repositório.
+    git checkout -b <branch>: Criar e mudar para uma nova branch.
+    git merge <branch>: Realizar a fusão de branches.
+    git branch -D <branch>: Deletar uma branch.
+    <h2>Stash:</h2>
+    
+    git stash: Guardar temporariamente as alterações locais.
+    git stash pop: Aplicar as últimas alterações guardadas.
+    git stash list: Listar todas as alterações guardadas.
+    <h2>GitHub:</h2>
+    
+    Configurar um repositório remoto no GitHub.
+    Gerar um token pessoal para autenticação no GitHub.
+    <h2>GitHub Pages:</h2>
+    
+    Configurar manual ou automaticamente (GitHub Actions) para publicar uma página no GitHub Pages.
+    <h2>GitHub Actions:</h2>
+    
+    Utilizar GitHub Actions para automação de tarefas no fluxo de trabalho do Git.
+    <h2>GitHub Settings:</h2>
+    
+    Explorar configurações e opções no GitHub, incluindo personal access tokens e audit log.
+    <h2>Visualização Avançada de Logs:</h2>
+    
+    Utilizar diferentes opções do git log para visualizar informações específicas dos commits.
+    <h2>Revisão e Revertimento:</h2>
+    
+    Utilizar comandos como git diff --staged, git commit --amend, git revert, e git reset para revisar e reverter alterações.
+    <h2>GitHub Organization:</h2>
+    
+    Criar uma nova organização no GitHub para gerenciar repositórios.
+    <h2>Outros Conceitos:</h2>
+    
+    Conceitos adicionais como arquivos ocultos, .gitkeep, e HEAD.
+    
+    .gitignore (Ignorar Arquivos) Arquivo usado para especificar quais arquivos e diretórios o Git deve ignorar durante o versionamento.
+    
+    git clone (Clonar Repositório) Usado para criar uma cópia local de um repositório Git existente.
     <main>
-        <footer>Meu Rodapé</footer>
+        <footer>Versionamento e Arquivos de Marcação</footer>
     </main>
 </body>
 
